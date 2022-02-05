@@ -1,0 +1,16 @@
+/* .main{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+} */
+.main button{
+    margin: 2px;
+}
+    /*Hide slider icon on mobile*/
+@media (max-width:768px){
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        display: none;
+    }
+}
+
